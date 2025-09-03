@@ -13,9 +13,9 @@
 指标：准确率 (accuracy)、召回率 (recall)、F1 值
 调参：学习率、GCN 层数、隐藏维度、正则化、dropout 等
 
-![根据家宽的传统分类方法示意图](./images/1.png)
+![根据家宽的传统分类方法示意图](images/1.png)
 
-![GCN示意图](./images/1.png)
+![GCN示意图](images/1.png)
 
 目标是：通过节点的输出logits预测某个节点是否为某一“家庭成员”。
 一、核心建模思路：关系图 + GNN
